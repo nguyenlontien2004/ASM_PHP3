@@ -1,0 +1,78 @@
+body {
+    color: #101828;
+    background-color: #eff4fa;
+}
+
+header,
+.footer {
+    background-color: #ffffff;
+}
+
+.footer {
+    color: rgb(0, 0, 0);
+    height: 50px;
+}
+
+.menu,
+.content {
+    background: white;
+}
+
+.divider {
+    border-right: 1px solid #ccc;
+    height: 100%;
+}
+
+.search-bar {
+    position: relative;
+}
+
+.search-input {
+    width: 100%;
+}
+
+.notification-icon {
+    font-size: 24px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.vertical-menu a {
+    background-color: #ffffff;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ddd;
+}
+
+.dropdown-menu {
+    background-color: #f2f2f2;
+    border: none;
+}
+
+.dropdown-item {
+    color: black;
+}
+
+.dropdown-item:hover {
+    background-color: #ddd;
+}
+
+.truncate {
+    max-width: 150px;
+    /* Đặt chiều rộng tối đa của cột */
+    overflow: hidden;
+    /* Ẩn phần nội dung vượt quá */
+    white-space: nowrap;
+    /* Không xuống dòng */
+    text-overflow: ellipsis;
+    /* Thêm dấu chấm lửng (...) nếu nội dung bị cắt */
+}
